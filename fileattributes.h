@@ -4,13 +4,11 @@
 #include <QObject>
 #include <QString>
 
-class FileAttributes : QString
+class FileAttributes
 {
-
-
         public:
 
-                FileAttributes(QString attributes);
+               FileAttributes(QString atttributes);
 
                 QString getUsername();
                 QString getGroup();

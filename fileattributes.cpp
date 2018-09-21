@@ -1,10 +1,12 @@
 #include <QString>
 #include <QStringList>
+#include <QDebug>
 #include "fileattributes.h"
 
-FileAttributes::FileAttributes(QString attributes) :
+FileAttributes::FileAttributes(QString atttributes)
 {
-    splitAttribs(attributes);
+    qDebug() << atttributes;
+    splitAttribs(atttributes);
 }
 
 
